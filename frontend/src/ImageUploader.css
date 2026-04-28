@@ -1,0 +1,37 @@
+.image-uploader {
+  margin-top: 1rem;
+}
+
+.upload-label {
+  display: block;
+  cursor: pointer;
+}
+
+.upload-input {
+  display: none;
+}
+
+.upload-button {
+  display: block;
+  padding: 0.75rem;
+  background: rgba(76, 175, 80, 0.2);
+  border: 2px dashed rgba(76, 175, 80, 0.5);
+  border-radius: 8px;
+  color: #81c784;
+  text-align: center;
+  transition: all 0.2s;
+  font-weight: 500;
+}
+
+.upload-button:hover {
+  background: rgba(76, 175, 80, 0.3);
+  border-color: rgba(76, 175, 80, 0.7);
+}
+
+.image-uploader small {
+  display: block;
+  margin-top: 0.5rem;
+  opacity: 0.7;
+  font-size: 0.875rem;
+  text-align: center;
+}
