@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-*.log*
+/frontend/build/
+/frontend/.cache/
+
+# Secrets / env
+.env
+.env.*
+!.env.example
+
+# Private / third-party data (kept locally, not published)
+/_private/
+/data/seats.json
+
+# Logs, temp, generated
+*.log
+*.tmp
+*.temp
+/backend/generated/
+/backend/exports/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
